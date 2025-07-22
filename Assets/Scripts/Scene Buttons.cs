@@ -14,4 +14,10 @@ public class SceneButtons : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void mainMenu()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
+
 }
